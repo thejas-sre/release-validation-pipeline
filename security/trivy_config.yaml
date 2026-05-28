@@ -1,0 +1,18 @@
+# Trivy scan configuration
+# CRITICAL severity blocks the release pipeline
+# HIGH severity generates a warning but does not block
+
+severity:
+  - CRITICAL
+  - HIGH
+
+exit-code: 1
+
+format: json
+
+ignore-unfixed: false
+
+vulnerability:
+  type:
+    - os
+    - library

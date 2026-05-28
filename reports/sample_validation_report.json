@@ -1,0 +1,12 @@
+{
+  "timestamp": "2025-01-15T08:00:00Z",
+  "elapsed_seconds": 11.4,
+  "gate_decision": "PASS",
+  "summary": {
+    "total": 47,
+    "passed": 46,
+    "failed": 0,
+    "skipped": 1
+  },
+  "note": "1 Kubernetes check skipped — kubectl not available in this environment. All other 46 checks passed."
+}
